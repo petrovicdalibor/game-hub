@@ -1,0 +1,33 @@
+.gamecard {
+  display: block;
+  background-color: #202020;
+  margin-top: 35px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.gamecard__image {
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.gamecard__image img {
+  height: 300px;
+}
+
+.gamecard__body {
+  padding: 10px;
+}
+
+.gamecard__body h2 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.gamecard__platforms svg {
+  margin: 0 10px 0 0;
+}

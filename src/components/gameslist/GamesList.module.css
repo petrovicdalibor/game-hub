@@ -1,0 +1,13 @@
+.main__games {
+  display: grid;
+  gap: 0px 24px;
+  width: 100%;
+  box-sizing: border-box;
+  grid-template-columns: repeat(4, 379.9px);
+}
+
+@media only screen and (max-width: 1910px) {
+  .main__games {
+    grid-template-columns: repeat(3, 379.9px);
+  }
+}

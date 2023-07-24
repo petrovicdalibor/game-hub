@@ -1,0 +1,13 @@
+.sidebar {
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  /* overflow: scroll; */
+  /* overflow-y: scroll; */
+  height: 85vh;
+  width: 230px;
+}
+
+.sidebar h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}

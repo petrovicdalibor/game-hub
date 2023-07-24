@@ -1,0 +1,13 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  margin: 0px 16px;
+  max-width: 1920px;
+}
+
+.layout section {
+  margin: 0 16px;
+}
